@@ -1,5 +1,1 @@
 flask
-sqlalchemy
-sqlalchemy.orm
-sqlalchemy.ext.declarative
-datetime

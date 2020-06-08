@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+					
+	<div style="display: flex; justify-content: center;">	
+	  <div style=" text-align: center; padding: 70px 0px; width: 900px">	
+		<p style="font-size: 60px;"><b>ТРЕНАЖЕРНЫЙ ЗАЛ</b></p>
+		<p style="text-align: justify; margin-top: 50px">Тренажерый зал открывает свои двери для посетителей с любым уровнем подготовки: "своё" здесь найдут как начинающие в фитнесе, так и опытные спортсмены. Мы учли интересы каждого клиента. Основное преимущество тренажерного зала — многозадачность. В просторном помещении находятся самые разнообразные тренажеры, направленные на развитие любой группы мышц. Мы постарались сделать все, чтобы вы обязательно достигли поставленной цели, какой бы она ни была: похудение, набор мышечной массы или комплексная подготовка к соревнованиям по пауэрлифтингу, армреслингу или фитнес-бикини. Просторный фитнес-зал разбит на зоны кардио и силовых тренировок. В каждой зоне дежурят опытные инструкторы. Профессиональные тренеры с удовольствием помогут Вам советом и не дадут заблудиться в разнообразии тренажеров.</p>
+		
+		{% set img = "/static/img/tren_zal.jpg" %}
+		<img src={{img}} style="width: 900px; height: auto;">
+		
+		<p style="text-align: center; margin-top: 40px; font-size: 20px;"><b>К ВАШИМ УСЛУГАМ</b></p>		
+		<div style="display: flex; justify-content: center;">
+			<div style="background: FireBrick; padding: 10px 60px; margin-right: 10px; width: 50%; text-align: left; color: white">
+				<h4><span class="glyphicon glyphicon-ok"></span> Просторный, оборудованный для занятий зал</h4>
+				<h4><span class="glyphicon glyphicon-ok"></span> Силовые тренажеры (все виды)</h4>
+				<h4><span class="glyphicon glyphicon-ok"></span> Кардиозона (велотренажеры, беговые дорожки и т.д.)</h4> 
+				<h4><span class="glyphicon glyphicon-ok"></span> Зона для бокса</h4>
+			</div>
+			<div style="background: FireBrick; padding: 10px 60px; margin-left: 10px; width: 50%; text-align: left; color: white">
+				<h4><span class="glyphicon glyphicon-ok"></span> Зона свободных весов (гантели, штанги и проч.)</h4>
+				<h4><span class="glyphicon glyphicon-ok"></span> Зона для кроссфита</h4>
+				<h4><span class="glyphicon glyphicon-ok"></span> Чистые раздевалки и душевые</h4> 
+				<h4><span class="glyphicon glyphicon-ok"></span> Шкафчики и ячейки для ценных вещей</h4>
+			</div>
+		</div>	
+
+		
+		<p style="font-size: 60px; padding-top: 70px"><b>ЗОНА ЕДИНОБОРСТВ</b></p>
+		<p style="text-align: justify; margin-top: 50px">В ЗОНЕ ЕДИНОБОРСТВ спортклуба «FITNESS CLUB» любой желающий, независимо от уровня подготовки и тренировочных целей , может заняться как ММА, так и боксом, функциональным тренингом, тайским боксом и самообороной.</p>
+		<p style="text-align: justify; margin-top: 20px">Опытные инструкторы помогут каждому достичь поставленной цели, выиграть турнир или просто с пользой провести время. У нас есть все необходимое для тренировок оборудование: полноразмерный октагон для ММА, профессиональные мешки, подушки, пневмогруша для бокса и тайского бокса, просторный борцовский татами для всех видов борьбы, а также различное оборудование для тренировок профессиональных спортсменов. Количество занятий настолько разнообразно, что тренировку по душе смогут найти как мужчины, так и женщины.</p>
+	
+		{% set img = "/static/img/edinoborstva.jpg" %}
+		<img src={{img}} style="width: 900px; height: auto;">
+		
+		<p style="text-align: center; margin-top: 40px; font-size: 20px;"><b>К ВАШИМ УСЛУГАМ</b></p>		
+		<div style="display: flex; justify-content: center;">
+			<div style="background: FireBrick; padding: 10px 60px; margin-right: 10px; width: 50%; text-align: left; color: white">
+				<h4><span class="glyphicon glyphicon-ok"></span> Просторный, оборудованный для занятий зал</h4>
+				<h4><span class="glyphicon glyphicon-ok"></span> Профессиональные мешки для бокса</h4>
+				<h4><span class="glyphicon glyphicon-ok"></span> Просторный борцовский татами</h4> 
+				<h4><span class="glyphicon glyphicon-ok"></span> Зона фунционального тренинга</h4>
+			</div>
+			<div style="background: FireBrick; padding: 10px 60px; margin-left: 10px; width: 50%; text-align: left; color: white">
+				<h4><span class="glyphicon glyphicon-ok"></span> Возможность присоединиться к занятиям в любой момент с любым уровнем подготовки</h4>
+				<h4><span class="glyphicon glyphicon-ok"></span> Возможность посещать только те занятия, которые интересны и не переплачивать за ненужные вам услуги</h4>
+			</div>
+		</div>	
+
+		
+		<p style="font-size: 60px; padding-top: 70px"><b>ФИТНЕС-БАР</b></p>
+		<p style="text-align: justify; margin-top: 50px">Повлиять на собственное здоровье можно контролируя то, что мы едим. Повысить тонус, увеличить продолжительность жизни и прийти в форму поможет здоровое питание. Именно поэтому занятия фитнесом и правильно подобранная диета — это идеальная комбинация. Фитнес-бар — необходимая услуга для тех, кто посещает тренажёрный зал. Широкий выбор специализированного питания, протеиновые батончики и витаминные коктейли. Поможем набраться сил даже тем, кто боится нарушать диету. А если вы набираете мышечную массу, здесь есть блюда с высоким содержанием белка и глюкозы. Лучшее место для того, чтобы набраться сил и расслабиться после занятий.</p>
+		<div style="display: flex; justify-content: center;">
+			{% set img = "/static/img/fitnes-bar1.jpg" %}
+			<img src={{img}} style="width: 400px; height: auto;">
+			{% set img = "/static/img/fitnes-bar2.jpg" %}
+			<img src={{img}} style="width: 400px; height: auto; margin-left: 30px">
+		</div>
+	  </div>
+	</div>
+	
+	
+{% endblock %}

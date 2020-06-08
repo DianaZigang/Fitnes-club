@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+				
+	
+	<div style="display: flex; justify-content: center;">	
+	<div style=" text-align: center; padding: 70px 0px; width: 900px">	
+		<p style="font-size: 60px; color: FireBrick"><b>АКЦИИ</b></p>
+		<p style="font-size: 30px;"><b>ФИТНЕС КЛУБ «FITNESS CLUB»</b></p>
+		
+		<div style="display: flex; justify-content: center; flex-wrap: nowrap; margin-top: 70px; text-align: left;">  
+			{% set img1 = "/static/img/free.jpg" %}
+			<img src={{img1}} style="width: 450px; height: auto;">
+			<div style="width: 450px; margin-left: 30px">
+				<p style="font-size: 20px"><b>БЕСПЛАТНОЕ ПРОБНОЕ ПОСЕЩЕНИЕ</b></p>
+				<h4 style="margin-top: 20px; color: #212121">Мы приглашаем Всех, кто ни разу не был в нашем фитнес-клубе! Посещение абсолютно бесплатное в любое удобное время работы клуба! Оцените наш клуб, прежде, чем вы приобретете абонемент. Вы можете заполнить форму заявки и наш менеджер обязательно с вами свяжется.</h4>
+				<h4 style="margin-top: 20px; color: #212121">Более подробная информация по телефону: <br> 8 (777) 999-88-55</h4>
+			</div>          
+		</div>
+		
+		<div style="display: flex; justify-content: center; flex-wrap: nowrap; margin-top: 70px; text-align: left;">    
+			<div style="width: 450px; margin-left: 30px">
+				<p style="font-size: 20px"><b>ТВОЙ ВОЗРАСТ = ТВОЯ СКИДКА!</b></p>
+				<h4 style="margin-top: 20px; color: #212121">Сделай себе правильный подарок в свой День Рождения и получи скидку в размере своего возраста (для всех членов клуба)</h4>
+			</div>   		 
+			{% set img2 = "/static/img/action.jpg" %}
+			<img src={{img2}} style="width: 450px; height: auto;">         
+		</div>
+		
+		<div style="display: flex; justify-content: center; flex-wrap: nowrap; margin-top: 70px; text-align: left;">  
+			{% set img3 = "/static/img/card.png" %}
+			<img src={{img3}} style="width: 450px; height: auto;">
+			<div style="width: 450px; margin-left: 30px">
+				<p style="font-size: 20px"><b>ОФОРМИТЕ КЛУБНУЮ КАРТУ</b></p>
+				<h4 style="margin-top: 20px; color: #212121">В клубную карту входит:</h4>
+				<ul>
+				  <li>Тренажерный зал</li>
+				  <li>Кардиозона</li>
+				  <li>Групповые программы</li>
+				  <li>Бесплатные полотенца</li>
+				  <li>Сейфовые ячейки</li>
+				  <li>Гостевой визит</li>
+				</ul>
+			</div>          
+		</div>
+		
+	</div>
+	</div>
+
+	
+{% endblock %}

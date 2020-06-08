@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>FITNESS CLUB</title>
+   	
+</head>
+	<body style="color: black">
+	
+		<nav class="navbar navbar-default" style="display: flex; justify-content: center; margin-bottom: 0px;">
+			<div class="navbar-header" style="margin-right: 200px;">
+			    <a class="navbar-brand" href="#" style="color: blue;"><b>FITNESS CLUB</b></a>
+			</div>
+			<ul class="nav navbar-nav" style="margin-right: 250px;">
+				<li><a href="/about">Главная</a></li>
+				<li><a href="/action">Акции</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Услуги<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="/group">Групповые занятия</a></li>
+					  <li><a href="/personal">Персональные тренировки</a></li>
+					  <li><a href="/uslugi">Остальные услуги</a></li>
+					</ul>
+				</li>
+				<li><a href="/galery">Галерея</a></li>
+				<li><a href="/comments">Отзывы</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Обратая связь<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="/posesh">Заявка на пробное посещение</a></li>
+					  <li><a href="/kard">Заказать клубную карту</a></li>
+					  <li><a href="/letter">Оставить отзыв</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>     
+		
+		
+		
+		{% block content %}{% endblock %}
+		
+		
+		
+		<div id=contacts style="background-color: #00001a; padding: 60px 0; display: flex; justify-content: center;">
+			<div style="color: white; width: 300px;">
+            
+				<p style="font-size: 30px;"><b>КОНТАКТЫ</b></p>
+				<h4 style="padding-top: 30px;"><span class="glyphicon glyphicon-phone" style="color: white"></span> Телефон: +7 (888) 999-88-55</h4>
+				<h4><span class="glyphicon glyphicon-envelope" style="color: white"></span> E-mail: anklavsite@gmail.com</h4>
+                <h4><span class="glyphicon glyphicon-time" style="color: white"></span> Режим работы: 9:00 - 23:00</h4> 
+                <h4><span class="glyphicon glyphicon-time" style="color: white"></span> Выходные дни: 10:00 - 22:00</h4>
+                
+			</div>
+		</div>
+		
+	</body>
+</html>
